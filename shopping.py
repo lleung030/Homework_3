@@ -5,9 +5,11 @@ print("SHOPPING CART")
 shopping_list=[]
 
 
-running = True
-while running:
+# running = True
+# while running:
 
+while True:
+    
     print("Select from list: 1.(a)/Add item  2.(d)Delete item  3.(v)Current shopping list  4.(q)Quit")
     
     choices = ['a', 'd', 'v', 'q', 'add', 'delete', 'view', 'quit']
@@ -37,7 +39,7 @@ while running:
         
     elif selection.lower()=='q' or selection.lower()=='quit':
         
-        print(f'{shopping_list} Thank you for shopping with us! Please come again!')
+        print(f'Here is your receipt for these items: {shopping_list} Thank you for shopping with us! Please come again!')
         
         print("Thank you!!")
         
@@ -45,3 +47,50 @@ while running:
     
     else:
         print("INVALID INPUT PLEASE TRY AGAIN!")
+        
+ 
+
+
+
+# address_book = []
+
+# def store_user_info(name, address, city):
+#     # address_book[key] = val\n",
+#     address_book.append({
+#         'name': name,
+#         'address': address,
+#         'city': city
+#     })
+        
+# def main():
+#     application_running = True
+    
+#     while application_running:
+        
+#         name = input("Person's Name: ")
+#         address = input("Person's Address: ")
+#         city = input("Person's City: ")
+            
+        
+#         store_user_info(name, address, city)
+    
+#         while True:
+            
+#             quit = input("Would you like to quit? (Y/N)").lower()
+
+#             if quit == 'y':
+                
+#                 print(address_book)
+                
+#                 application_running = False
+            
+        
+            
+#             elif quit == 'n':
+#                 break
+#             else:
+#                 print(f"{quit} is not a valid option, please try again.")
+
+
+# main()
+

@@ -16,8 +16,10 @@ print("SHOPPING CART")
 shopping_list=[]
 
 
-running = True
-while running:
+# running = True
+# while running:
+
+while True:
 
     print("Select from list: 1.(a)/Add item  2.(d)Delete item  3.(v)Current shopping list  4.(q)Quit")
     
@@ -48,7 +50,7 @@ while running:
         
     elif selection.lower()=='q' or selection.lower()=='quit':
         
-        print(f'{shopping_list} Thank you for shopping with us! Please come again!')
+        print(f'Here is your receipt for these item(s): {shopping_list} Thank you for shopping with us! Please come again!')
         
         print("Thank you!!")
         
